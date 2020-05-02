@@ -1,0 +1,484 @@
+*{ 
+    padding: 0;
+   margin: 0;
+   text-decoration: none; 
+   font-family: sans-serif;
+
+}
+header{
+    background-color: #316DC3;
+    text-align: center;
+}
+p{
+    display: inline;
+    padding-left: 130px;
+    
+}
+
+img.wapp{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+.fa{
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+}
+.fa-facebook {
+    background:  #316DC3;
+    color: white;
+    border-radius:30px;
+
+}
+.fa-instagram {
+    background: #316DC3;
+    color: white;
+    border-radius:30px;
+}
+.fa-twitter{
+    background: #316DC3;
+    color: white;
+    border-radius:30px;
+}
+.fa-whatsapp{
+    background: #316DC3;
+    color: white;
+    border-radius:30px;
+}
+.fa-youtube{
+    background: #316DC3;
+    color: white;
+    border-radius:30px;
+}
+img.mainimage{
+    height: 500px;
+    width: 1550px;
+    padding: 0;
+    margin: 0;
+}
+p.tag{
+    background-color: #316DC3;
+    color: white;
+}
+img.logo{
+    display: inline;
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    padding-left: 150px;
+}
+button.h1{
+
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #316DC3;
+    color: white;
+    
+}
+button.h1:hover{
+
+    background-color: #326dc3;
+    color: white;
+    border-radius: 20px;
+}
+button.headbuttons{
+    padding: 5px;
+    margin: 1px;
+    font-size: -1em;
+    border: none;
+    background-color: white;
+    color: grey;
+}
+button.headbuttons:hover{
+    cursor:pointer;
+}
+div.headbuttonsdiv{
+    display: inline;
+    margin:130px;
+}
+button.headbuttonsdiv:hover{
+    cursor:pointer;
+}
+div.topnav{
+    display: inline-flex;
+    position: fixed;
+    background-color: white;
+
+}
+div.news{
+    text-align: center;
+    background-color: #316DC3
+}
+div.para1{
+    height: 200px;
+    width: 1000px;
+    padding-left: 300px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+div.parallax{
+    background-color: #2755e9;
+    color: white;
+}
+.block {
+    display: block;
+    width: 250px;
+    height:250px;
+    border: none;
+    background-color: #FFFFFF;
+    color: 2755e9;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: black;
+  }
+.stats{
+    background-color: #2755E9;
+    color: white;
+    height: 300px;
+    width: 1500px;
+}
+.food{
+    display: inline;
+}
+.family{
+    display: inline;
+}
+.doctor{
+    display:inline;
+}
+.education{
+    display: inline;
+}
+#statiscs div{
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+#statiscs{
+
+    background-color:rgb(9, 9, 255) ;
+    max-width: 100%;
+}
+div h1{
+    font-size: 40px;
+    text-align: center;
+}   
+
+div h2{
+    font-size: 20px;
+}
+.paragraps{
+
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 17%;
+    margin-left: 17%;
+    justify-content: center;
+    color: gray;
+}
+/* ________________________________________________________________________ */
+
+.onlinesadqah{
+    
+    height: 160px;
+    width:350px;
+    box-shadow: 0 0 15px 3px rgb(230, 227, 227);
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.onlinesadqahimage{
+    padding-top: 30px;
+    padding-left: 140px;
+    height: 70px;
+    width: 70px;
+}
+.headingO{
+    padding-top: 20px;
+    padding-left: 110px;
+    color: #316DC3;
+}
+
+.Welfare{
+    height: 160px;
+    width:350px;
+    box-shadow: 0 0 15px 3px rgb(230, 227, 227);
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.Welfareimage{
+    padding-top: 30px;
+    padding-left: 140px;
+    height: 70px;
+    width: 70px;
+}
+.headingW{
+    padding-top: 20px;
+    padding-left: 145px;
+    color: #316DC3;
+}
+
+
+
+.medical{
+    height: 160px;
+    width:350px;
+    box-shadow: 0 0 15px 3px rgb(230, 227, 227);
+    margin-left:40px;
+    margin-top: 90px;
+}
+
+.Medicalimage{
+    padding-top: 30px;
+    padding-left: 140px;
+    height: 70px;
+    width: 70px;
+}
+
+.headingM{
+    padding-top: 20px;
+    padding-left: 140px;
+    color: #316DC3;
+}
+
+.container1{
+    display: flex;
+    margin-top: -50px;
+}
+
+
+.Dastarkhwan{
+    
+    height: 160px;
+    width:350px;
+    box-shadow: 0 0 15px 3px rgb(230, 227, 227);
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.Dastarkhwanimage{
+    padding-top: 30px;
+    padding-left: 140px;
+    height: 70px;
+    width: 70px;
+}
+.headingD{
+    font-family: serif;
+    padding-top: 16px;
+    padding-left: 117px;
+    color: #316DC3;
+}
+
+.RO{
+    height: 160px;
+    width:350px;
+    box-shadow: 0 0 15px 3px rgb(230, 227, 227);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.ROimage{
+    padding-top: 30px;
+    padding-left: 140px;
+    height: 70px;
+    width: 70px;
+}
+.headingRO{
+    padding-top: 20px;
+    padding-left: 140px;
+    color: #316DC3;
+}
+
+
+
+.education{
+    height: 160px;
+    width:350px;
+    box-shadow: 0 0 15px 3px rgb(230, 227, 227);
+    margin-left:40px;
+    margin-top: 40px;
+}
+
+.educationimage{
+    padding-top: 30px;
+    padding-left: 140px;
+    height: 70px;
+    width: 70px;
+}
+
+.headingE{
+    padding-top: 20px;
+    padding-left: 135px;
+    color: #316DC3;
+}
+.container2{
+    display: flex;
+    height: 240px;
+}
+
+.missionheading{
+    font-size: 25px;
+    margin-left:200px;
+    margin-top: 30px;
+}
+.box1{
+    font-size: 25px;
+    margin-left:200px;
+    margin-top: 30px;
+    height: 60px;
+    width: 350px;
+    background-color: whitesmoke;
+}
+.heap{
+    display: inline;    
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.heapimg{
+
+    display: inline;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+
+.box2{
+    font-size: 25px;
+    margin-left:40px;
+    margin-top: 30px;
+    height: 60px;
+    width: 350px;
+    background-color: whitesmoke;
+}
+.house{
+    display: inline;    
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.houseimg{
+
+    display: inline-flex;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.container{
+    display: flex
+}
+
+
+.box3{
+    font-size: 25px;
+    margin-left:200px;
+    margin-top: 30px;
+    height: 60px;
+    width: 350px;
+    background-color: whitesmoke;
+}
+.it{
+    display: inline;    
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.itimg{
+
+    display: inline;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+
+.box4{
+    font-size: 25px;
+    margin-left:40px;
+    margin-top: 30px;
+    height: 60px;
+    width: 350px;
+    background-color: whitesmoke;
+}
+.thar{
+    display: inline;    
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.tharimg{
+
+    display: inline-flex;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.container_up{
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.img1{
+    padding-left: 130px;
+    height: 150px;
+    width: 250px;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+    opacity: 50%;
+}
+.img2{
+
+    height: 150px;
+    width: 250px;
+
+}
+.img3{
+
+    height: 150px;
+    width: 250px;
+}
+
+.img4{
+
+    height: 150px;
+    width: 250px;
+}
+.img5{
+    height: 150px;
+    width: 250px;
+}
+footer{
+    background-color: #25272E;
+    height: 300px;
+    width: 1600px;
+
+}
+.address{
+    padding-left: 120px;
+    padding-top: 30px;
+    width: 400px;
+}
+.sm{
+    width: 400px;
+}
+.A{
+    padding-left: 100px;
+}
+.up{
+    padding-left: 1500px;
+}
